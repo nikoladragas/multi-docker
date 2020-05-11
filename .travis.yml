@@ -7,7 +7,7 @@ before_install:
     #Build tests for other projects
 
 script:
-    - docker run -e CI=true nikoladragas/react-test npm test npm test
+    - docker run -e CI=true nikoladragas/react-test npm test
     #Run those other tests
 
 after_success:
